@@ -14,7 +14,7 @@
     <TextView
         android:id="@+id/textViewAuthor"
         android:layout_width="wrap_content"
-        android:layout_height="47dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/author_name"
         android:textSize="20sp" />
@@ -27,7 +27,7 @@
         android:fontFamily="@font/angkor"
         android:padding="8dp"
         android:text="@string/main_title"
-        android:textColor="@color/color_textos"
+        android:textColor="@color/white"
         android:textSize="34sp" />
 
     <ImageView
