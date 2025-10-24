@@ -12,46 +12,46 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/author_name"
+        android:textSize="20sp" />
+
+    <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/angkor"
         android:padding="8dp"
         android:text="@string/main_title"
         android:textColor="@color/color_textos"
         android:textSize="34sp" />
 
-    <TextView
-        android:id="@+id/textViewAuthor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/author_name"
-        android:textSize="18sp"
-        android:layout_marginTop="16dp"/>
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="188dp"
+        android:layout_height="190dp"
         android:layout_marginTop="24dp"
-        app:srcCompat="@drawable/coche_repostando"
-        android:contentDescription="@null"/>
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/coche_repostando" />
 
     <TextView
         android:id="@+id/textViewDescription"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/app_description"
+        android:layout_height="27dp"
         android:layout_marginTop="24dp"
         android:gravity="center"
-        android:textSize="16sp"/>
+        android:text="@string/app_description"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/buttonToCalculator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="191dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="46dp"
         android:text="@string/button_to_calculator" />
 
 </LinearLayout>
