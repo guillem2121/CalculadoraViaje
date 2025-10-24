@@ -1,7 +1,17 @@
 <resources>
-    <string name="app_name">DRIVEMETRICS</string>
+    <!-- Inicio -->
+    <string name="app_name">Drivemetrics</string>
     <string name="main_title">DRIVEMETRICS</string>
     <string name="author_name">Guilermo Martín Silgado</string>
     <string name="button_to_calculator">Ir a la Calculadora</string>
     <string name="app_description">¡Calcula tus viajes!</string>
+    <!-- Calculadora -->
+    <string name="calculator_title">Introduce los Datos del Viaje</string>
+    <string name="hint_distance">Distancia del viaje (km)</string>
+    <string name="hint_consumption">Consumo del coche (L/100km)</string>
+    <string name="hint_price">Precio del combustible (€/L)</string>
+    <string name="button_calculate">Calcular Coste</string>
+    <string name="button_back_to_main">Volver</string>
+    <string name="result_prefix">Coste estimado del viaje: €</string>
+    <string name="toast_result">El coste del viaje es: €%1$.2f</string>
 </resources>

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.CalculadoraViaje"
         tools:targetApi="31">
         <activity
-            android:name=".CaulculatorActivity"
+            android:name=".CalculatorActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
