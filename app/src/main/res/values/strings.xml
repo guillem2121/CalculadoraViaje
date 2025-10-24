@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalculadoraViaje</string>
+    <string name="main_title">Calculadora de Coste de Viaje</string>
+    <string name="author_name">Autor: Guilermo Martín Silgado</string>
+    <string name="button_to_calculator">Ir a la Calculadora</string>
+    <string name="app_description">Esta aplicación te ayuda a calcular el coste total de combustible para un viaje en coche. Simplemente introduce la distancia del trayecto, el consumo medio de tu vehículo y el precio actual del combustible para obtener una estimación precisa de tus gastos.</string>
+</resources>
