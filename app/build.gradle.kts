@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.guillermoMartin.calculadoraviaje"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.guillermoMartin.calculadoraviaje"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
