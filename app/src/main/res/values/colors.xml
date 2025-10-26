@@ -5,4 +5,5 @@
     <color name="gradient_end_color">#FF6200EE</color>
     <color name ="color_textos">#D9D2E7</color>
     <color name = "title_background_color">#3DDC84</color>
+    <color name = "title_CalculatroText">#FFFFFFFF</color>
 </resources>
