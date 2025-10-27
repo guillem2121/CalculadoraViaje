@@ -33,7 +33,6 @@ public class CalculatorActivity extends AppCompatActivity {
                     double consumption = Double.parseDouble(consumptionStr);
                     double price = Double.parseDouble(priceStr);
 
-                    // Fórmula: (distancia / 100) * consumo * precio
                     double totalCost = (distance / 100) * consumption * price;
 
                     String resultText = getString(R.string.result_prefix) + String.format("%.2f", totalCost);
@@ -50,7 +49,7 @@ public class CalculatorActivity extends AppCompatActivity {
         buttonBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(); // Cierra la actividad actual y vuelve a la anterior
+                finish();
             }
         });
     }
