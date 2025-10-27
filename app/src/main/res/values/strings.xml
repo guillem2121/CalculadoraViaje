@@ -4,7 +4,10 @@
     <string name="main_title">DRIVEMETRICS</string>
     <string name="author_name">Guilermo Martín Silgado</string>
     <string name="button_to_calculator">Ir a la Calculadora</string>
-    <string name="app_description">Introduce la distancia de tu viaje, el consumo de tu coche y el precio del combustible para calcular el coste del viaje gracias a DriveMetrics.</string>
+    <string name="app_description">Introduce la distancia de tu viaje,
+        el consumo de tu coche y el precio del combustible
+        para calcular el coste del viaje gracias a DriveMetrics.</string>
+
     <!-- Calculadora -->
     <string name="calculator_title">Introduce los Datos del Viaje</string>
     <string name="hint_distance">Distancia del viaje (km)</string>
